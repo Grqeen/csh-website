@@ -1,0 +1,377 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+     font-family: sans-serif; /* This is fallback font for old browsers */
+     font-family: var(--common-font);
+  }
+
+nav 
+{
+  width: 100%;
+  height: 50px;
+  background: #2f3136;
+}
+
+nav .main_pages 
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .main_pages a 
+{
+  width: 60em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  
+}
+
+nav a:hover 
+{
+  background: #5A5766
+}
+
+.logo{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.Fonda{
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.Mayos{
+  margin: 50px auto;
+  height: auto;
+  width: 40%;
+  max-width: 600px;
+  min-width: 400px;
+  box-shadow: 0 0 15px  ;
+
+}
+.Mayos img{
+  width: 100%;
+  height: auto;
+}
+
+.Mayos h3 {
+  padding: 10px;
+}
+
+.Mayos p {
+  padding: 10px;
+}
+
+h1{
+  font-size: max(3vw, 35px);
+}
+
+html, body{
+  font-size: 16px;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+.Captive{
+  margin: 50px auto;
+  height: auto;
+  width: 40%;
+  max-width: 600px;
+  min-width: 400px;
+  box-shadow: 0 0 15px ;
+
+}
+
+.Captive img{
+  width: 100%;
+  height: auto;
+}
+
+.Captive h3 {
+  padding: 10px;
+}
+
+.Captive p {
+  padding: 10px;
+}
+
+.FIN{
+  margin: 50px auto;
+  height: auto;
+  width: 50%;
+  max-width: 600px;
+  min-width: 400px;
+  box-shadow: 0 0 100px black;   
+  font-family: "Amiri",sans-serif;
+  text-align: justify;
+}
+
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+  text-decoration:none;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+  text-decoration:none;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+  text-decoration:none;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+  text-decoration:none;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+    text-decoration:none;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+  text-decoration:none;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+    text-decoration:none;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+  text-decoration:none;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+  text-decoration:none;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+    text-decoration:none;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+  text-decoration:none;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+  text-decoration:none;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+  text-decoration:none;
+  
+}
+
+
+
+.discordP{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.twitterT{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.PokemonGame{
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-shadow:#e7f6ff 0 -1px 0,
+#0464b4 1px 1px 0,
+#0464b4 2px 2px 0,
+#333 5px 5px 10px;color:#0464b4;
+}
+
+.jeux{
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.petit{
+text-align: center;
+}
+
+.Download{
+height: 40px;
+width: 40px;
+}
+
+.emulateur{
+text-align: center;
+}
+
+.page-wrap {
+min-height: 100%;
+/* equal to footer height */
+margin-bottom: -142px; 
+}
+.page-wrap:after {
+content: "";
+display: block;
+}
+.site-footer, .page-wrap:after {
+/* .push must be the same height as footer */
+height: 142px; 
+}
+
+.vertical { 
+border-left: 4px solid white; 
+height: 30px; 
+display: inline-block;
+} 
+
+.modo{
+display: flex;
+}
+
+.zombie{
+height: 200px;
+width: 200px;
+}
+.oren{
+height: 200px;
+width: 200px;
+}
+
+
+.NousS{
+color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.modos{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Zombieee{
+margin: 50px auto;
+height: auto;
+width: 40%;
+max-width: 200px;
+min-width: 200px;
+box-shadow: 0 0 25px #5c5a74 ;
+display: block;
+
+
+}
+.Zombieee img{
+  width: 100%;
+  height: auto;
+}
+
+.orenbtt{
+margin: 50px auto;
+height: auto;
+width: 40%;
+max-width: 200px;
+min-width: 200px;
+box-shadow: 0 0 25px #343434	 ;
+display: block;
+}
+
+.orenbtt img{
+width: 100%;
+height: auto;
+}
+
+.Carton{
+box-shadow: 0 0 15px ;
+width: 300px;
+}
+
+.Brindibou{
+  height: 60px;
+  width: 60px;
+}
+
+#listing{
+  position:absolute; 
+  top:500px;
+  left:175px; 
+  visibility:visible
+}
+
+.telephone{
+  float: right;
+  margin-right: 2px;
+}
+
+.discordapi{
+  flex: left;
+}
+
+.twitterapi{
+  flex: right;
+}
+
+.dark {
+  background-color: #333;
+  color: #f1f1f1;
+}
+
+
+
